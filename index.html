@@ -2,87 +2,82 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E2A47">
 <title>AI Ecosystem: Thailand Local AI Ecosystem | AllGEMs</title>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Sarabun:wght@300;400&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
 <style>
-body{font-family:'Kanit', sans-serif; background:#0E2A47;}
-.sarabun{font-family:'Sarabun', sans-serif;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:hidden}
+body{font-family:'Kanit',sans-serif;background:#0E2A47;color:white;min-height:100dvh;display:flex;flex-direction:column;overflow-x:hidden;-webkit-text-size-adjust:100%}
+.sarabun{font-family:'Sarabun',sans-serif}
+.header{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;max-width:1280px;margin:0 auto;width:100%}
+.main{flex:1;display:flex;align-items:center;justify-content:center;padding:24px 24px 40px;max-width:1280px;margin:0 auto;width:100%}
+.grid{display:grid;grid-template-columns:1fr;gap:40px;width:100%;align-items:center}
+@media(min-width:900px){.grid{grid-template-columns:420px 1fr;gap:72px}}
+.book-wrap{position:relative;margin:0 auto;width:100%;max-width:360px}
+@media(max-width:380px){.book-wrap{max-width:82vw}}
+.book{width:100%;aspect-ratio:340/480;background:#0E2A47;border-radius:12px;box-shadow:0 25px 80px rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.1);padding:36px 32px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.book-bg{position:absolute;top:0;right:0;width:160px;height:160px;opacity:.08;background:radial-gradient(circle at 30% 30%, white 1.5px, transparent 1.5px);background-size:20px 20px}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1);border-radius:999px;padding:6px 14px;margin-bottom:24px}
+.dot{width:8px;height:8px;background:#34d399;border-radius:50%;box-shadow:0 0 8px rgba(52,211,153,.6)}
+.h1{font-size:clamp(36px,6vw,52px);font-weight:300;line-height:.95;letter-spacing:-.02em}
+.h1 span{color:#B8D4FF}
+.desc{color:rgba(255,255,255,.6);font-size:16px;line-height:1.6;margin-top:20px;max-width:480px}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.tag{font-family:'Sarabun',sans-serif;font-size:11px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.1);border-radius:999px;padding:6px 12px;color:rgba(255,255,255,.7);letter-spacing:.02em}
+.cta{display:inline-flex;align-items:center;gap:8px;background:white;color:#0E2A47;padding:14px 32px;border-radius:999px;font-size:14px;font-weight:500;letter-spacing:.02em;text-decoration:none;margin-top:32px;min-height:48px;transition:.2s}
+.cta:active{transform:scale(.98)}
+.stats{display:flex;gap:32px;margin-top:48px;padding-top:32px;border-top:1px solid rgba(255,255,255,.1)}
+.stat-num{font-size:24px;font-weight:300}
+.stat-label{font-family:'Sarabun',sans-serif;font-size:10px;color:rgba(255,255,255,.4);letter-spacing:.15em;margin-top:2px}
+.footer{padding:20px;text-align:center;font-family:'Sarabun',sans-serif;color:rgba(255,255,255,.2);font-size:10px;letter-spacing:.15em}
 </style>
 </head>
-<body class="min-h-screen flex flex-col">
-<header class="p-6 flex justify-between items-center max-w-7xl mx-auto w-full">
-<div class="text-white/60 sarabun text-[11px] tracking-[0.2em]">PREMIUM STRATEGIC DOCUMENT BY AllGEMs</div>
-<div class="text-white/40 text-[11px]">2026</div>
+<body>
+<header class="header">
+<div class="sarabun" style="color:rgba(255,255,255,.6);font-size:11px;letter-spacing:.2em">PREMIUM STRATEGIC DOCUMENT BY AllGEMs</div>
+<div style="color:rgba(255,255,255,.4);font-size:11px">2026</div>
 </header>
-<main class="flex-1 flex items-center justify-center px-6 py-12">
-<div class="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
-<div class="relative mx-auto">
-<div class="w-[340px] h-[480px] bg-[#0E2A47] rounded-[12px] shadow-[0_25px_80px_rgba(0,0,0,0.4)] border border-white/10 p-10 flex flex-col justify-between relative overflow-hidden">
-<div class="absolute top-0 right-0 w-40 h-40 opacity-10">
-<div class="w-full h-full" style="background: radial-gradient(circle at 30% 30%, white 1px, transparent 1px); background-size: 20px 20px;"></div>
+<main class="main">
+<div class="grid">
+<div class="book-wrap">
+<div class="book">
+<div class="book-bg"></div>
+<div>
+<div class="sarabun" style="color:rgba(255,255,255,.4);font-size:10px;letter-spacing:.2em;margin-bottom:32px">PREMIUM STRATEGIC DOCUMENT</div>
+<h1 style="font-size:26px;font-weight:300;line-height:1.15">AI Ecosystem:<br>Thailand Local<br>AI Ecosystem</h1>
+<p class="sarabun" style="color:rgba(255,255,255,.5);font-size:12.5px;margin-top:20px;line-height:1.6">เอกสารเชิงกลยุทธ์การสร้าง AI Ecosystem ในเชิงกลยุทธ์ โมเดล AI ไม่สำคัญเท่าการเข้าถึงและใช้ประโยชน์เครือข่ายความรู้อย่างครอบคลุม</p>
 </div>
 <div>
-<div class="sarabun text-white/40 text-[10px] tracking-[0.2em] mb-8">PREMIUM STRATEGIC DOCUMENT</div>
-<h1 class="text-white font-light text-[28px] leading-tight">AI Ecosystem:<br>Thailand Local<br>AI Ecosystem</h1>
-<p class="sarabun text-white/50 text-[13px] mt-6 leading-relaxed">เอกสารเชิงกลยุทธ์การสร้าง AI Ecosystem ในเชิงกลยุทธ์ โมเดล AI ไม่สำคัญเท่าการเข้าถึงและใช้ประโยชน์เครือข่ายความรู้อย่างครอบคลุม</p>
+<div style="display:flex;align-items:center;gap:8px">
+<span style="color:rgba(255,255,255,.8);font-size:13px">โดย AllGEMs</span>
+</div>
+<div class="sarabun" style="margin-top:12px;color:rgba(255,255,255,.3);font-size:9px;letter-spacing:.2em">THAILAND LOCAL AI ECOSYSTEM</div>
+</div>
+</div>
 </div>
 <div>
-<div class="flex items-center gap-2">
-<span class="text-white/80 text-[13px]">โดย AllGEMs</span>
-<img src="AllGEMs_logo_1.png" alt="logo" class="h-[14px] w-auto opacity-80" onerror="this.style.display='none'">
+<div class="badge">
+<div class="dot"></div>
+<span class="sarabun" style="font-size:11px;letter-spacing:.05em;color:rgba(255,255,255,.8)">EBOOK ON AI ECOSYSTEM • LIVE NOW</span>
 </div>
-<div class="mt-4 text-white/30 sarabun text-[9px] tracking-widest">THAILAND LOCAL AI ECOSYSTEM</div>
+<h2 class="h1">The strategic<br>asset may not<br>be the <span>AI model.</span></h2>
+<p class="desc sarabun">It may be the <span style="color:white">knowledge network</span> that the AI can access.<br><br>For Thailand, the most important AI strategy is not building the biggest model, but connecting knowledge scattered across 15 sectors.</p>
+<div class="tags">
+<span class="tag">15 SECTORS</span>
+<span class="tag">RAG ARCHITECTURE</span>
+<span class="tag">SOVEREIGN AI</span>
 </div>
-</div>
-<div class="absolute -bottom-6 left-6 right-6 h-10 bg-black/30 blur-xl rounded-full -z-10"></div>
-</div>
-<div class="text-white">
-<div class="inline-flex items-center gap-2 bg-white/10 rounded-full px-4 py-1.5 mb-6">
-<div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
-<span class="sarabun text-[11px] tracking-wide text-white/80">EBOOK ON AI ECOSYSTEM • LIVE NOW</span>
-</div>
-<h2 class="text-[42px] md:text-[52px] font-light leading-[0.95] tracking-tight">
-The strategic<br>
-asset may not<br>
-be the <span class="text-[#B8D4FF]">AI model.</span>
-</h2>
-<p class="sarabun text-white/60 text-[16px] leading-relaxed mt-6 max-w-[480px]">
-It may be the <span class="text-white">knowledge network</span> that the AI can access.<br><br>
-For Thailand, the most important AI strategy is not building the biggest model, but connecting knowledge scattered across 15 sectors.
-</p>
-<div class="flex flex-wrap gap-3 mt-8">
-<span class="sarabun text-[11px] bg-white/10 border border-white/10 rounded-full px-3 py-1 text-white/70">15 SECTORS</span>
-<span class="sarabun text-[11px] bg-white/10 border border-white/10 rounded-full px-3 py-1 text-white/70">RAG ARCHITECTURE</span>
-<span class="sarabun text-[11px] bg-white/10 border border-white/10 rounded-full px-3 py-1 text-white/70">SOVEREIGN AI</span>
-</div>
-<div class="mt-10 flex gap-4">
-<a href="ebook.html" class="bg-white text-[#0E2A47] px-8 py-3.5 rounded-full text-[14px] font-medium tracking-wide hover:bg-white/90 transition flex items-center gap-2">
-Read Ebook
-<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.5"/></svg>
-</a>
-<!-- <a href="https://github.com/allgems-pixel/Ebook-on-AI-Ecosystem" class="border border-white/20 text-white/80 px-8 py-3.5 rounded-full text-[14px] hover:bg-white/10 transition">GitHub</a> -->
-</div>
-<div class="mt-12 pt-8 border-t border-white/10 flex gap-8">
-<div>
-<div class="text-[24px] font-light text-white">9</div>
-<div class="sarabun text-[10px] text-white/40 tracking-widest">CHAPTERS</div>
-</div>
-<div>
-<div class="text-[24px] font-light text-white">15</div>
-<div class="sarabun text-[10px] text-white/40 tracking-widest">SECTORS</div>
-</div>
-<div>
-<div class="text-[24px] font-light text-white">2026</div>
-<div class="sarabun text-[10px] text-white/40 tracking-widest">EDITION</div>
-</div>
+<a href="ebook.html" class="cta">Read Ebook <span style="font-size:16px">→</span></a>
+<div class="stats">
+<div><div class="stat-num">9</div><div class="stat-label">CHAPTERS</div></div>
+<div><div class="stat-num">15</div><div class="stat-label">SECTORS</div></div>
+<div><div class="stat-num">2026</div><div class="stat-label">EDITION</div></div>
 </div>
 </div>
 </div>
 </main>
-<footer class="p-6 text-center sarabun text-white/20 text-[10px] tracking-[0.2em]">
-จัดทำโดย โดย AllGEMs • THAILAND LOCAL AI ECOSYSTEM • MODEL CAN BE REPLACED. NATIONAL KNOWLEDGE CAN KEEP ACCUMULATING.
-</footer>
+<footer class="footer">จัดทำโดย AllGEMs • THAILAND LOCAL AI ECOSYSTEM • MODEL CAN BE REPLACED. NATIONAL KNOWLEDGE CAN KEEP ACCUMULATING.</footer>
 </body>
 </html>
